@@ -9,6 +9,8 @@ const Button = ({onPress, children, disabled}) => {
       disabled={disabled}
     >
       <Text style={styles.text}>{children}</Text>
+
+      
     </Pressable>
   );
 };
